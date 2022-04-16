@@ -1,0 +1,19 @@
+p::first-line {
+    background-color: yellow;
+}
+
+p::first-letter{
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h4::before{
+    content: "leer esto";
+    background-color: brown;
+}
+
+h5::after{
+    content:" cita alice el pais";
+    background-color: aqua;
+
+}

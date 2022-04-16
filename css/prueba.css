@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.header {
+    background-color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu {
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: 400px;
+    border-width: 4px;
+    border-style:solid;
+    border-radius: 10px;
+    border-color: blue;
+
+}
+
+.titulo{
+    background-color: aqua;
+    color: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.inicio {
+    background-color: blue;
+    padding: 5px;
+}
+
+.registro {
+    background-color: blue;
+    padding: top;
+    
+}

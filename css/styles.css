@@ -1,0 +1,36 @@
+
+
+.hearder {
+        background-color: black;
+        
+
+}
+.menu {
+    background-color: aqua;
+}
+
+[href] {
+    background-color: aqua;
+}
+
+[href="iniciarsesion.html"]
+{ 
+  background-color: blue
+}
+
+/* h1 {
+    background-color: blueviolet;
+} */
+
+#inicio {
+    background-color: blueviolet;
+}
+
+.texto{
+    background-color: aquamarine;
+    width: 200px;
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+

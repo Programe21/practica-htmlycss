@@ -1,0 +1,28 @@
+*{
+    margin: o;
+    padding: 0;
+}
+
+header{
+    height: 500px;
+    width: 500px;
+    background-color:aquamarine ;
+    /* display: table-cell;
+    vertical-align: middle; */
+    
+    
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 30px ;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* 1 er valor horizonta, 2do valor vertical */
+    box-shadow: 5px 30px 10px black;
+    display: inline-block;
+    margin: 200px
+
+}

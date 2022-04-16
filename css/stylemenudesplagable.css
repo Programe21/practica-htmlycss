@@ -1,0 +1,84 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#header{
+    margin: auto;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    
+}
+ul, ol{
+    list-style: none;
+
+
+
+}
+ /* modificando los enlaces */
+.nav li a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+
+}
+/* mov mover el menu arriva*/
+.nav > li{
+    float: left;
+    
+}
+
+
+/* color de fondo cuanto paso encima el mause por los botones  */
+
+.nav li a:hover{
+    background-color: #434343;
+    transition: 2s;
+   
+}
+
+.nav li ul{
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 2s;
+    position: absolute;
+    min-width: 140px;
+    
+   
+    
+    
+
+}
+ /* aparecer el menu */
+.nav li:hover > ul {
+        /* display: block; */
+        visibility: visible;
+        opacity: 1;
+    
+    
+    
+    
+}
+
+
+/* desplazar el menu a la derecha  */
+.nav li ul li{
+    position: relative;
+    
+    
+    
+}
+
+
+.nav li ul li ul{
+     right: -140px;
+     top: 0px;
+    
+     
+}
